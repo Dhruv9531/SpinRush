@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0F172A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPINRUSH"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/coins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🪙 Coins: 0"
+        android:textColor="#FBBF24"
+        android:textSize="20sp"
+        android:layout_marginBottom="28dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap SPIN and test your luck!"
+        android:textColor="#CBD5E1"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/spin"
+        android:layout_width="220dp"
+        android:layout_height="64dp"
+        android:text="SPIN"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/mission"
+        android:layout_width="220dp"
+        android:layout_height="56dp"
+        android:text="Daily Mission +50"
+        android:layout_marginTop="18dp"/>
+
+</LinearLayout>
